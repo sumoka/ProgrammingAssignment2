@@ -9,6 +9,12 @@
 # 3.set the value of the mean
 # 4.get the value of the mean
 
+## Try the following example to see it in action-
+## mtx1 <- makeCacheMatrix( matrix(seq(1:4),2,2, byrow =TRUE) );
+## a$getmx()
+## cacheInverse(mtx1)
+## To validate if it's correct try - solve(mtx1)
+
 makeCacheMatrix <- function(x = matrix()){
 ## initialize cache value to NULL
   cachemx <- NULL
